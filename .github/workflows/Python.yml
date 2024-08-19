@@ -45,7 +45,7 @@ jobs:
       run: docker tag ${{ secrets.DOCKER_USERNAME }}/proyecto-python:latest ${{ secrets.DOCKER_USERNAME }}/proyecto-python:latest11
 
     - name: Push Docker image to DockerHub
-      run: docker push "${{ secrets.DOCKER_USERNAME }}/proyecto-python:latest"
+      run: docker push ${{ secrets.DOCKER_USERNAME }}/proyecto-python:latest
 
       #prueba1
       #prueba4
