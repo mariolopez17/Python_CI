@@ -35,4 +35,4 @@ COPY src/ src/
 
 # Comando por defecto para ejecutar tu aplicación
 CMD ["python", "src/app.py"]
-
+#pruebass
